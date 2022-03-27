@@ -1,76 +1,58 @@
 body{
-    background-color: chocolate;
+    background-color: cadetblue;
 }
 ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
-overflow: hidden;
 background-color: #333;
+position: fixed;
+top: 0;
+width: 100%;
 }
-li {
+.meny a{
 float: left;
-}
-li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
-li a:hover {
-background-color: #111;
 }
 
-@media screen and (min-width: 340px) and (max-width: 480px){
- body{
-    background-color: chocolate;
-}
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #333;
-}
-li {
-float: left;
-}
-li a {
+.meny a {
 display: block;
 color: white;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
+
 }
-li a:hover {
-background-color: #111;
+.meny a:hover {
+background-color: rgb(17, 167, 50);
 }
- 
+.meny a.active {
+background-color: cadetblue;
+color: white;
 }
+.main {
+padding: 16px;
+margin-top: 5px;
+}
+@media screen and (max-width: 600px) {
+    .meny a:not(:first-child) {
+        display: none;
+    }
+    .meny a.icon {
+      float: right;
+      display: block;
+    }
+  }
   
-@media screen and (min-width: 800px){
-    body{
-        background-color: crimson }
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-        }
-        li {
-        float: left;
-        }
-        li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        }
-        li a:hover {
-        background-color: purple ;
-        }
-}
+  @media screen and (max-width: 600px) {
+    .meny .responsive .icon {
+      position: absolute;
+      right: 0;
+      bottom:0;
+    }
+    .meny .responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+  }
