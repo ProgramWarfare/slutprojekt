@@ -15,10 +15,10 @@ for (var i = 0; i < btns.length; i++) {
 
 function myFunction() {
     var x = document.getElementById("kvar");
-    if (x.className === "meny") {
+    if (x.className === "li") {
       x.className += " responsive";
     } else {
-      x.className = "meny";
+      x.className = "li";
     }
   }
 
