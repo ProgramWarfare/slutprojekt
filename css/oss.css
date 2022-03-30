@@ -23,7 +23,7 @@ text-decoration: none;
 
 }
 li a:hover {
-background-color: cadetblue ;
+background-color: cadetblue;
 }
 li a.active {
 background-color: cadetblue;
@@ -32,4 +32,8 @@ color: white;
 .main {
 padding: 16px;
 margin-top: 5px;
+}
+
+.to_hide {
+    display: none;
 }

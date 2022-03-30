@@ -33,12 +33,19 @@ color: white;
 padding: 16px;
 margin-top: 5px;
 }
+
+.to_hide {
+  visibility: hidden;
+}
+.icon {
+  float: right;
+}
+
 @media screen and (max-width: 600px) {
     li a:not(:first-child) {
-        display: none;
+        visibility: hidden;
     }
     li a.icon {
-      float: right;
       display: block;
     }
   }
