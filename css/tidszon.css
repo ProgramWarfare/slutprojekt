@@ -39,3 +39,7 @@ color: white;
 padding: 16px;
 margin-top: 30px;
 }
+.b{
+    max-width: 50px;
+    max-height: 100px ;
+}
