@@ -1,66 +1,86 @@
-* {
-  margin: 0;
-padding: 0;
+.box{
+    margin: 5px;
+    padding: 4px 8px;
+    border: 3px solid #000;
+    max-width: 500px;
+    max-height: 500px;
 }
-body{
-  background-color: cadetblue;
+.box1{
+    border: 3px solid #000;
+    margin: 5px;
+    padding: 4px 8px;
+    max-width: 10px;
+    max-height: fit-content;
+    max-width: fit-content;
 }
-.li {
-list-style-type: none;
-margin: 0;
-padding: 0;
-background-color: #333;
-position: fixed;
-top: 0;
-width: 100%;
+.p {
+    text-decoration: none;
+    list-style-type: none;
+color: aliceblue;
 }
-.li a{
-float: left;
+.mad{
+    border: 5px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    grid-auto-flow: column;
+}
+.box{
+    flex: 1 1 30%;
+}
+#blue{
+    height: 270px;
+    display: flex;
+    grid-auto-flow: column;
+    gap: 80px;
+    align-items: center;
+    display: flex;
+    align-items: flex-start;
+}
+#green{
+    height: 270px;
+    display: flex;
+    grid-auto-flow: column;
+    gap: 80px;
+    align-items: center;
+    display: flex;
+    align-items: flex-start;
+}
+#red{
+    height: 270px;
+    display: flex;
+    grid-auto-flow: column;
+    gap: 80px;
+    align-items: center;
+    display: flex;
+    align-items: flex-start;
+}
+#yellow{
+    height: 270px;
+    display: flex;
+    grid-auto-flow: column;
+    gap: 80px;
+    align-items: center;
+    display: flex;
+    align-items: flex-start;
 }
 
-.li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+
+.r{
+margin-top: 50px;
+max-width: 100px;
+max-height: 500px;
+display: flex;
+align-self: center;
+
 
 }
-.li a:hover {
-background-color: cadetblue;
-}
-.li a.active {
-background-color: cadetblue;
-color: white;
-}
-.main {
-padding: 16px;
-margin-top: 30px;
-}
-.li .icon {
-  display: none;
-}
 
-@media screen and (max-width: 600px) {
-  .li a:not(.active) {display: none;}
-  .li a.icon {
-    float: right;
-    display: block;
-  }
+@media screen and (min-width: 600px){
+.mad {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
 }
-
-@media screen and (max-width: 600px) {
-  .li.responsive {position: relative;}
-  .li.responsive .icon {
-    position: absolute;
-    right: 0;
-    top:0;
-  }
-  .li.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
 }
- 
