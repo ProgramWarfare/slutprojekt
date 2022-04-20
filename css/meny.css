@@ -3,7 +3,7 @@
 padding: 0;
 }
 body{
-  background-color: cadetblue;
+  background-color: whitesmoke;
 }
 .li {
 list-style-type: none;
@@ -21,17 +21,20 @@ float: left;
 .li a {
 display: block;
 color: white;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-size: 14px;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 
 }
 .li a:hover {
-background-color: cadetblue;
+background-color: whitesmoke;
+color: #333;
 }
 .li a.active {
-background-color: cadetblue;
-color: white;
+background-color: whitesmoke;
+color: black;
 }
 .main {
 padding: 16px;
@@ -45,7 +48,7 @@ margin-top: 30px;
   .li a:not(.active) {display: none;}
   .li a.icon {
     float: right;
-    display: none;
+    display:block ;
   }
 }
 
