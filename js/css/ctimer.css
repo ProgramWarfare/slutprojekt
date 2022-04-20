@@ -1,0 +1,23 @@
+#demo {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background-color: darkgray;
+    margin-top: 0px;
+    border: black solid 2px;
+    max-width: fit-content; 
+}
+.main{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+}
+
+.space{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.p2{
+    width: 420px;
+}
