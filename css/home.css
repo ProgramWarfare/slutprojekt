@@ -106,7 +106,11 @@ align-self: center;
 }
 
 @media screen and (max-width: 600px){
-#blue #green{
-    width: 100% ;
+#blue,
+#green,
+#red,
+#yellow{
+    min-width: 93%;
 }
+
 }

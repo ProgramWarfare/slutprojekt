@@ -22,8 +22,7 @@ body{
     max-height: 577px;
     border: black solid 5px;
 }
-
-    @media screen and (max-width: 600px) {
+   
 #bs {
   border-radius: 5px;
   cursor: pointer;
@@ -105,5 +104,16 @@ body{
 .img00 {
     width: 100%;
 }
+ 
+@media screen and (min-width: 600px) {
+  .img00,
+  .img01,
+  .bakgrunden,
+  #Mymodal,
+  span,
+  #caption{
+    display: none;
+    opacity: 0;
+  }
 
 }
