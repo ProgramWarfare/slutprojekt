@@ -1,0 +1,116 @@
+.box{
+    margin: 5px;
+    padding: 4px 8px;
+    border: 3px solid #000;
+    max-width: 500px;
+    max-height: 500px;
+}
+.box1{
+    border: 3px solid #000;
+    margin: 5px;
+    padding: 4px 8px;
+    max-width: 10px;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+.p {
+    text-decoration: none;
+    list-style-type: none;
+    color: aliceblue;
+}
+.mad{
+    background-color: whitesmoke;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    grid-auto-flow: column;
+
+
+}
+.box{
+    flex: 1 1 30%;
+}
+#blue{
+    height: 270px;
+    color: #000;
+    background-color: lightslategray;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    grid-auto-flow: column;
+    gap: 80px;
+    align-items: center;
+    display: flex;
+    align-items: flex-start;
+}
+#green{
+    height: 270px;
+    color: #000;
+    background-color: lightslategray;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    grid-auto-flow: column;
+    gap: 80px;
+    align-items: center;
+    display: flex;
+    align-items: flex-start;
+}
+#red{
+    height: 270px;
+    color: #000;
+    background-color: lightslategray;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    grid-auto-flow: column;
+    gap: 80px;
+    align-items: center;
+    display: flex;
+    align-items: flex-start;
+}
+#yellow{
+    height: 270px;
+    color: #000;
+    background-color: lightslategray;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    grid-auto-flow: column;
+    gap: 80px;
+    align-items: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+.b{
+margin-top: 50px;
+max-width: 51px;
+max-height: 28px;
+border-radius: 2px;
+display: flex;
+align-self: center;
+}
+
+@media screen and (min-width: 600px){
+.mad {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+}
+
+@media screen and (max-width: 600px){
+#blue,
+#green,
+#red,
+#yellow{
+    min-width: 93%;
+}
+
+}

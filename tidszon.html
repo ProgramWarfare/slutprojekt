@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<title>Tidernas Hemsida</title>
+<meta charset = "utf-8" />
+    <link href="../css/meny.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/tidszon.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="li" id="kvar">
+<a href="home.html">home</a>
+<a href="worldtime.html">världstid</a>
+<a href="tidszon.html" class="active">tidszon</a>
+<a href="timer.html">timer</a>
+<a href="oss.html">om oss</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+</a>
+</div>
+
+
+
+<div class="main">
+<h1>Timezone Map</h1>
+
+
+
+<img id="bs" src="../bild/kompworld-1.png" alt="karta" class="b">
+
+
+<div id="myModal" class="bakgrunden">
+  <span class="close">&times;</span>
+  <img class="img00" id="img01"> <!-- Raden fick problem i validatorn men om man ändrar vet fungerar inte modal image.-->
+  <div id="caption"></div>
+</div>
+</div>
+
+<script src="../js/meny.js"></script>
+<script src="../js/tidszon.js"></script>
+</body>
+</html>
