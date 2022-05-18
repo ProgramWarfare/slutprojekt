@@ -2,7 +2,11 @@
     margin: 0;
 	padding: 0;
 }
-
+.p {
+    text-decoration: none;
+    list-style-type: none;
+    color: lightslategray;
+}
 .main {
 padding: 16px;
 margin-top: 30px;
