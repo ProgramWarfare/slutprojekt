@@ -21,3 +21,8 @@
 .p2{
     width: 420px;
 }
+.p {
+    text-decoration: none;
+    list-style-type: none;
+    color: lightslategray;
+}
