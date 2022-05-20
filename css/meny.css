@@ -66,4 +66,20 @@ margin-top: 30px;
   }
 
 }
+@media screen and (max-width: 600px) {
+  body{
+      background-color: #708a81;
+  }
+  .li{
+      background-color: #284854;
+  }
+  .li a:hover {
+      background-color: #708a81;
+      color: #333;
+      }
+      .li a.active {
+      background-color: #708a81;
+      color: black;
+      }
+    }
  

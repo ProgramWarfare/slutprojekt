@@ -26,3 +26,16 @@
     list-style-type: none;
     color: lightslategray;
 }
+@media screen and (max-width: 600px) {
+    .main{
+        font-size: 13px;
+    }
+    #demo{
+        font-size: 50px;
+    }
+    .p{
+        font-size: 20px;
+        color: aliceblue;
+        margin-left: 5px;
+    }
+}

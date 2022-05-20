@@ -35,3 +35,16 @@ button{
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 600px) {
+form{
+margin-right: 120px;
+}
+.p{
+font-size: 20px;
+color: aliceblue;
+
+}
+.margin{
+margin-left: 8px;
+}
+}

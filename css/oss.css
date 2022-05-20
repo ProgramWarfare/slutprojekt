@@ -27,3 +27,9 @@ p{
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 600px) {
+        p{
+            color: black; 
+            background-color: #b8b8aa;
+}
+}
