@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.main {
+main {
     padding: 16px;
     margin-top: 30px;
     display: flex;
@@ -16,6 +16,7 @@
     text-decoration: none;
     list-style-type: none;
     color: #0B0B45;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .black {
