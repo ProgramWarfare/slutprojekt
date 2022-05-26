@@ -9,13 +9,13 @@
     display: flex;
     justify-content: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .p {
     text-decoration: none;
     list-style-type: none;
-    color: #070d45;
+    color: #0B0B45;
 }
 
 .black {
