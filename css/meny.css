@@ -99,6 +99,7 @@ body {
     }
     .li {
         background-color: #284854;
+        color: white;
     }
     .li a:hover {
         background-color: #708a81;
@@ -106,6 +107,6 @@ body {
     }
     .li a.active {
         background-color: #708a81;
-        color: black;
+        color: white;
     }
 }
