@@ -16,7 +16,7 @@
   .p {
     text-decoration: none;
     list-style-type: none;
-    color: aliceblue;
+    color: #0B0B45;
   }
   .mad {
     background-color: whitesmoke;
@@ -33,7 +33,7 @@
   #blue {
     height: 270px;
     color: #000;
-    background-color: lightslategray;
+    background-color:#90A6BB;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
@@ -46,7 +46,7 @@
   #green {
     height: 270px;
     color: #000;
-    background-color: lightslategray;
+    background-color: #90A6BB;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
@@ -59,7 +59,7 @@
   #red {
     height: 270px;
     color: #000;
-    background-color: lightslategray;
+    background-color: #90A6BB;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
@@ -72,7 +72,7 @@
   #yellow {
     height: 270px;
     color: #000;
-    background-color: lightslategray;
+    background-color: #90A6BB;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
