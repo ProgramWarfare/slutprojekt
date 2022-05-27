@@ -43,7 +43,7 @@ body {
 
 .main {
     padding: 16px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
   .text-assistive {
@@ -53,6 +53,7 @@ body {
     position: absolute;
     margin: 0;
     padding: 0;
+    color:lightslategray ;
   }
 
 .li .icon {
