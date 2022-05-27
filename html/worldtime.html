@@ -13,11 +13,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet" />
     </head>
     <body>
-        <a class="skip-content" href="#main">skip´to content</a>
+        <header>
+            <a href="#skip-link-target" class="text-assistive display-at-top-on-focus">Skip to main content.</a>
+        </header>
         <div class="li" id="kvar">
             <a href="home.html">home</a><a href="worldtime.html" class="active">världstid</a><a href="tidszon.html">tidszon</a><a href="timer.html">timer</a><a href="oss.html">om oss</a>
             <a href="#" class="icon" onclick="myFunction()"><p>.</p> <i class="fa fa-bars" aria-hidden="true"></i></a>
         </div>
+        <a href="#skip-link-target" class="text-assistive display-at-top-on-focus" id="skip-link-target">Start of main content.</a>
         <main><h1>Världstid klocka</h1></main>
         <div id="columns">
             <div class="column">
@@ -103,8 +106,6 @@
         <script src="../js/worldtime.js"></script>
 
         
-        <a id="main" name="main"></a>
 
-<main id="main"></main>
     </body>
 </html>

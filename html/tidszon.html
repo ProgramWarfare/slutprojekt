@@ -11,27 +11,29 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet" />
-    </head>
+        
+</head>
     <body>
-        <a class="skip-content" href="#main">skip´to content</a>
+        <header>
+            <a href="#skip-link-target" class="text-assistive display-at-top-on-focus">Skip to main content.</a>
+        </header>
         <div class="li" id="kvar">
             <a href="home.html">home</a><a href="worldtime.html">världstid</a><a href="tidszon.html" class="active">tidszon</a><a href="timer.html">timer</a><a href="oss.html">om oss</a>
             <a href="#" class="icon" onclick="myFunction()"><p>.</p> <i class="fa fa-bars" aria-hidden="true"></i></a>
         </div>
+        <a href="#skip-link-target" class="text-assistive display-at-top-on-focus" id="skip-link-target">Start of main content.</a>
         <main class="main">
             <h1>Timezone Map</h1>
             
             <img id="bs" src="../bild/Ktidzk3.jpg" alt="karta" class="b" />
             <div id="myModal" class="bakgrunden">
-                <span class="close">&times;</span> <img class="img00" id="img01" alt="modal" />
+                <span class="close">&times;</span> <img class="img00" id="img01" alt="modal" /><!--can inte ha en alt här, omöjligt-->
                 <div id="caption"></div>
             </div>
 </main>
         <script src="../js/meny.js"></script>
         <script src="../js/tidszon.js"></script>
     
-        <a id="main" name="main"></a>
 
-        <main id="main"></main>
     </body>
 </html>
